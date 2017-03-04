@@ -1,0 +1,2 @@
+scripts/* /usr/share/ev3-robolab-startup
+systemd/* /lib/systemd/system

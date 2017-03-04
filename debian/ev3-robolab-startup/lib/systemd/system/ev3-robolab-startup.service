@@ -1,0 +1,10 @@
+[Unit]
+Description=Get up a tmux session, load python packages
+
+[Service]
+Type=forking
+ExecStart=/usr/share/ev3-robolab-startup/init.sh
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target

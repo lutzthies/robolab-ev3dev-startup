@@ -1,0 +1,6 @@
+7374f3db8966c4be9afbadbf5a1e9189  lib/systemd/system/ev3-robolab-startup.service
+7978d46c1612836a11c7024f6a5d554a  usr/share/doc/ev3-robolab-startup/README.Debian
+06e190c48f52ef38ce742fd126a803a9  usr/share/doc/ev3-robolab-startup/changelog.gz
+78641782090986e596089faa28f2a5fa  usr/share/doc/ev3-robolab-startup/copyright
+d8a0bf14259fc1436a787dc3eecd0dbd  usr/share/ev3-robolab-startup/init.sh
+225e001a7e3946795f8fb44ae3747d61  usr/share/ev3-robolab-startup/startup.py
