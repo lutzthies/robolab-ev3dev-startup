@@ -2,11 +2,11 @@ Source: ev3-robolab-startup
 Section: unknown
 Priority: optional
 Maintainer: Lutz Thies <lutz.thies@tu-dresden.de>
-Build-Depends: debhelper (>=9)
+Build-Depends: debhelper (>=9), dh-systemd
 Standards-Version: 3.9.6
 Homepage: http://robolab.inf.tu-dresden.de
 
 Package: ev3-robolab-startup
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, adduser
 Description: Registers a systemd service that runs after boot and initiates a tmux session running python3.

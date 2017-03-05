@@ -1,2 +1,2 @@
-misc:Depends=
+misc:Depends=init-system-helpers (>= 1.18~)
 misc:Pre-Depends=

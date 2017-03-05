@@ -15,9 +15,4 @@
 
 
 %:
-	dh $@
-
-override_dh_systemd_start:
-	# Restarting could cause us to lose network connection, which would kill
-	# the upgrade if it was running from a remote terminal.
-	dh_systemd_start --no-start --no-restart-on-upgrade
+	dh $@ --with systemd

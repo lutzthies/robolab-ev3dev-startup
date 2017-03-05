@@ -2,8 +2,9 @@ Package: ev3-robolab-startup
 Version: 1.0
 Architecture: all
 Maintainer: Lutz Thies <lutz.thies@tu-dresden.de>
-Installed-Size: 17
+Installed-Size: 27
+Depends: init-system-helpers (>= 1.18~), adduser
 Section: unknown
 Priority: optional
 Homepage: http://robolab.inf.tu-dresden.de
-Description: Registers a systemd service that run after boot and initiates a tmux session running python3.
+Description: Registers a systemd service that runs after boot and initiates a tmux session running python3.
