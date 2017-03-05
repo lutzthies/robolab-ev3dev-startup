@@ -22,7 +22,8 @@ set -e
 
 case "$1" in
     configure)
-
+    chown robot /home/robot/src/
+    chown robot /home/robot/src/*
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
